@@ -1,6 +1,6 @@
 # Super Mario Galaxy Local Co-op
 
-Super Mario Galaxy Local Co-op adds a second full playable character (Luigi) to **Super Mario Galaxy** (Nintendo Switch, versions **1.0.0 / 1.3.1**), enabling two players to play together in dynamic/permanent split-screen on one console or emulator.
+Super Mario Galaxy Local Co-op adds a second full playable character (Luigi) to **Super Mario Galaxy** (Nintendo Switch, **Update 1.3.1**), enabling two players to play together in dynamic/permanent split-screen on one console or emulator.
 
 This is a local co-op modification built using an ExLaunch `subsdk9` module; it is not an online or networked multiplayer mod.
 
@@ -10,7 +10,7 @@ This is an early alpha release. Save backups are recommended. Known limitations 
 
 | Target | Status | Notes |
 |---|---|---|
-| Super Mario Galaxy (Switch) | **1.0.0 / 1.3.1** | Title ID `010099C022B96000`. Base `1.0.0` and Update `1.3.1` share identical ExeFS binaries; tested on `1.3.1`. |
+| Super Mario Galaxy (Switch) | **Update 1.3.1** | Title ID `010099C022B96000`. **Update `1.3.1` is required** (Base `1.0.0` has a different `main` binary and is unsupported). |
 | Atmosphere / physical Switch | Supported (alpha) | Tested on real Switch hardware; includes generated `main.npdm`. |
 | Eden / Ryujinx | Supported (alpha) | Tested on Eden v0.2.1; works with two configured controllers. |
 
@@ -28,7 +28,7 @@ This is an early alpha release. Save backups are recommended. Known limitations 
 
 ## Requirements
 
-- A legally obtained copy of **Super Mario Galaxy** for Nintendo Switch (**version 1.0.0 or 1.3.1**, Title ID `010099C022B96000`).
+- A legally obtained copy of **Super Mario Galaxy** for Nintendo Switch (**Update 1.3.1**, Title ID `010099C022B96000`). Base `1.0.0` without Update `1.3.1` will not work.
 - A Switch running Atmosphere custom firmware, or a compatible emulator (Eden / Ryujinx).
 - Two controllers configured as Player 1 and Player 2.
 - The `MarioGalaxyLocalCoop-v0.1.0-alpha.1.zip` release package.

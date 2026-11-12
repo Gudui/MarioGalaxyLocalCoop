@@ -22,7 +22,7 @@ void* sP2LastAliveNerve = nullptr;
 
 constexpr std::uint32_t kInvulnerableDurationFrames = 120; // 2 seconds post-respawn grace
 
-// Verified NSO offsets for MarioActor and inner Mario in SMG1 v1.0.0
+// Verified NSO offsets for MarioActor and inner Mario in SMG1 v1.3.1
 constexpr std::uintptr_t kMarioActorPositionOffset = 0x14;          // actor+0x14 (pos XYZ: 0x14, 0x18, 0x1c)
 constexpr std::uintptr_t kMarioActorScaleOffset = 0x2C;             // actor+0x2c (scale XYZ: 0x2c, 0x30, 0x34)
 constexpr std::uintptr_t kMarioActorVelocityOffset = 0x38;          // actor+0x38 (vel XYZ: 0x38, 0x3c, 0x40)

@@ -12,7 +12,7 @@ namespace mod::patches {
 
 namespace {
 
-// Static NSO offsets verified via Ghidra headless analysis on smg1 v1.0.0
+// Static NSO offsets verified via Ghidra headless analysis on smg1 v1.3.1
 constexpr std::uintptr_t kPatch0066AddPlayerLeft = 0x237560;
 constexpr std::uintptr_t kPatch0066KinokoOneUpExeGot = 0x269C08;
 constexpr std::uintptr_t kPatch0066GetPlayerLeftFunc = 0x07E330;

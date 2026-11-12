@@ -5,7 +5,7 @@
 namespace galaxy::target {
 
 namespace {
-// SMG1 v1.0.0 main (SHA-256 76f1b4d8...05938): NSO header module id, the GNU
+// SMG1 v1.3.1 main (SHA-256 76f1b4d8...05938): NSO header module id, the GNU
 // build id of the module. Every hook offset belongs to this build; on a console
 // with another game version they would patch unrelated code.
 constexpr unsigned char kSmg1BuildId[20] = {

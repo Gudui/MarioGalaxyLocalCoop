@@ -2,7 +2,7 @@
 
 ## v0.1.0-alpha.1
 
-Initial public alpha release for **Super Mario Galaxy** (Switch 1.0.0 / 1.3.1, Title ID `010099C022B96000`):
+Initial public alpha release for **Super Mario Galaxy** (Switch Update 1.3.1, Title ID `010099C022B96000`):
 
 - **Two-player co-op**: spawns Luigi (Player 2) with independent controller input and mutual collision filtering.
 - **Permanent split-screen**: dedicated split views with independent Luigi follow camera (`FollowYaw` / `OrbitViewAbout`), 1.5x native distance framing (capped at +800 units), Launch/Sling Star pairing, and per-half EFB bloom copy isolation.
